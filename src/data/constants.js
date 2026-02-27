@@ -13,15 +13,14 @@ export const C = {
 };
 
 export const gradBg = `linear-gradient(135deg, ${C.lemonChiffon} 0%, ${C.champagnePink} 25%, ${C.babyPink} 45%, ${C.lavenderBlue} 70%, ${C.skyBlue} 100%)`;
-
 export const MOODS = [
-  { label: 'Happy', color: C.grannySmith, emoji: '😊' },
-  { label: 'Okay', color: C.skyBlue, emoji: '😐' },
-  { label: 'Stressed', color: C.pinkLavender, emoji: '😰' },
-  { label: 'Tired', color: C.champagnePink, emoji: '😴' },
-  { label: 'Anxious', color: C.babyPink, emoji: '😟' },
-  { label: 'Great', color: C.magicMint, emoji: '🤩' },
-  { label: 'Sad', color: C.babyBlueEyes, emoji: '😢' },
+  { label: 'Sad', value: 2, color: C.babyBlueEyes, emoji: '😢' },
+  { label: 'Anxious', value: 3, color: C.babyPink, emoji: '😟' },
+  { label: 'Stressed', value: 4, color: C.pinkLavender, emoji: '😰' },
+  { label: 'Tired', value: 5, color: C.champagnePink, emoji: '😴' },
+  { label: 'Okay', value: 6, color: C.skyBlue, emoji: '😐' },
+  { label: 'Happy', value: 8, color: C.grannySmith, emoji: '😊' },
+  { label: 'Great', value: 10, color: C.magicMint, emoji: '🤩' },
 ];
 
 export const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];

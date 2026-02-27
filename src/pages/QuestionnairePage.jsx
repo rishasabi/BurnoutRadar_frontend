@@ -6,10 +6,18 @@ import { questions, MOODS } from '../data/constants';
 
 export default function QuestionnairePage({ onSubmit }) {
   const [step, setStep] = useState(0);
-  const [answers, setAnswers] = useState({
-    sleep: 7, work: 8, motivation: 5, productivity: 5,
-    stress: 5, mood: 0, social: 5, screentime: 4,
-  });
+  const initialAnswers = {
+    sleep: 0,
+    work: 0,
+    motivation: 0,
+    productivity: 0,
+    stress: 0,
+    mood: 0,
+    social: 0,
+    screentime: 0,
+  };
+
+  const [answers, setAnswers] = useState(initialAnswers);
   const navigate = useNavigate();
 
   const q = questions[step];
