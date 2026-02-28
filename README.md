@@ -1,9 +1,9 @@
-#BurnoutRadar
+# BurnoutRadar
 
-### Team Name: Code Chicas
+## Team Name: Code Chicas
 
 
-## Team Members
+###Team Members
 
 Member 1: Risha Sabi – TKM College of Engineering
 Member 2: Haadiya Sajjadh – TKM College of Engineering  
@@ -18,7 +18,7 @@ https://burnout-radar-frontend.vercel.app/
 
 ### Project Description
 BurnoutRadar is a web-based wellbeing tracker that helps students and professionals monitor burnout risk through daily mood, sleep, productivity, and stress inputs. It provides visual analytics, burnout scoring, and AI-powered supportive feedback to promote healthier habits. 
--
+
 It's not just a tracker.
 It's your reminder to slow down and take care of yourself😉💌.
 
@@ -26,7 +26,7 @@ It's your reminder to slow down and take care of yourself😉💌.
 
 ### The Problem Statement
 Many students and professionals experience burnout but fail to recognize early warning signs. Lack of self-awareness and continuous monitoring leads to stress accumulation, reduced productivity, and mental exhaustion.
--
+
 The real issue? People don't realize they're burning out until it's too late.
 
 ---
@@ -114,7 +114,7 @@ OpenAI API
 
 ---
 
-Project Documentation
+## Project Documentation
 
 <img width="1345" height="634" alt="image" src="https://github.com/user-attachments/assets/05860bc7-63ee-47a8-8427-298f1d30c13e" />
 
