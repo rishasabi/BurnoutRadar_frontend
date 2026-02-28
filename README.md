@@ -1,16 +1,64 @@
-# React + Vite
+#  Burnout Radar Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Vite** web application that helps users track burnout through mood monitoring, sleep analysis, stress insights, and AI-powered support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- Dashboard with burnout insights  
+- Daily wellbeing questionnaire  
+-  Mood, sleep & stress tracking  
+- Burnout analysis & scoring  
+- AI chatbot for supportive guidance  
+- Responsive modern UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Setup
 
-## Expanding the ESLint configuration
+### 1️⃣ Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Create .env
+VITE_OPENAI_API_KEY=your_api_key_here
+
+3️⃣ Run development server
+npm run dev
+
+Open 👉 http://localhost:5173
+
+📁 Project Structure
+src/
+├── components/   # Reusable UI components
+├── pages/        # Application pages
+├── data/         # Constants & sample data
+├── utils/        # Analysis & chatbot logic
+├── styles/       # Global styles
+├── App.jsx       # Routing
+└── main.jsx      # Entry point
+
+🤖 AI Chatbot
+
+A floating chatbot powered by OpenAI that provides burnout-aware supportive responses.
+Configure using your API key in .env.
+
+🛠 Scripts
+
+npm run dev – Start development server
+
+npm run build – Production build
+
+npm run preview – Preview production build
+
+🧩 Tech Stack
+
+React
+
+Vite
+
+React Router
+
+OpenAI API
+
+
+---
