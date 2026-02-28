@@ -1,11 +1,12 @@
-# Basic Details
+#BurnoutRadar
 
-## Team Name
-BurnoutRadar
+### Team Name: Code Chicas
+
 
 ## Team Members
-Member 1: Risha Sabi – TKM College of Engineering
-Member 2: Haadiya Sajjadh – TKM College of Engineering  
+•Member 1: Risha Sabi – TKM College of Engineering
+-
+•Member 2: Haadiya Sajjadh – TKM College of Engineering  
 
 
 ---
@@ -15,18 +16,24 @@ https://burnout-radar-frontend.vercel.app/
 
 ---
 
-# Project Description
-BurnoutRadar is a web-based wellbeing tracker that helps students and professionals monitor burnout risk through daily mood, sleep, productivity, and stress inputs. It provides visual analytics, burnout scoring, and AI-powered supportive feedback to promote healthier habits.
+### Project Description
+BurnoutRadar is a web-based wellbeing tracker that helps students and professionals monitor burnout risk through daily mood, sleep, productivity, and stress inputs. It provides visual analytics, burnout scoring, and AI-powered supportive feedback to promote healthier habits. 
+-
+It's not just a tracker.
+It's your reminder to slow down and take care of yourself😉💌.
 
 ---
 
-# The Problem Statement
+### The Problem Statement
 Many students and professionals experience burnout but fail to recognize early warning signs. Lack of self-awareness and continuous monitoring leads to stress accumulation, reduced productivity, and mental exhaustion.
+-
+The real issue? People don't realize they're burning out until it's too late.
 
 ---
 
-# The Solution
-BurnoutRadar collects daily wellbeing inputs and analyzes them using a burnout scoring algorithm. The platform visualizes trends, generates personalized insights, and provides AI-assisted support to help users detect burnout and take preventive action.
+### The Solution
+BurnoutRadar collects daily wellbeing inputs and analyzes them using a burnout scoring. The platform visualizes trends, generates personalized insights, and provides AI-assisted support to help users detect burnout and take preventive action.
+
 
 ---
 
@@ -57,7 +64,7 @@ BurnoutRadar collects daily wellbeing inputs and analyzes them using a burnout s
 
 ---
 
-# Features
+## Features
 
 - **Feature 1:** Daily wellbeing questionnaire tracking sleep, stress, mood, and productivity  
 - **Feature 2:** Burnout score calculation with visual dashboard analytics  
@@ -66,9 +73,7 @@ BurnoutRadar collects daily wellbeing inputs and analyzes them using a burnout s
 
 ---
 
-# Implementation
-
-## For Software
+## Implementation
 
 ### Installation
 
@@ -87,15 +92,6 @@ npm run dev
 
 Open http://localhost:5173
 
-📁 Project Structure
-src/
-├── components/   # Reusable UI components
-├── pages/        # Application pages
-├── data/         # Constants & sample data
-├── utils/        # Analysis & chatbot logic
-├── styles/       # Global styles
-├── App.jsx       # Routing
-└── main.jsx      # Entry point
 
 
 🛠 Scripts
@@ -121,18 +117,22 @@ OpenAI API
 Project Documentation
 
 <img width="1345" height="634" alt="image" src="https://github.com/user-attachments/assets/05860bc7-63ee-47a8-8427-298f1d30c13e" />
+
 The landing page introduces BurnoutRadar. It explains the purpose of the platform and allows users to quickly navigate to the dashboard or start the wellbeing questionnaire. Mood indicators visually communicate the app’s focus on emotional awareness and burnout prevention.
 
 
 <img width="1365" height="606" alt="Screenshot 2026-02-28 085509" src="https://github.com/user-attachments/assets/a23164b9-0625-4ebd-863e-eb4a4fe8727c" />
+
 This screen shows the daily check-in questionnaire where users input wellbeing metrics such as stress level, sleep, productivity, and mood using interactive sliders and selections. The progress bar guides users through the assessment step-by-step to ensure quick and simple daily tracking.
 
 
 <img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/a2cd18fe-f49b-43d9-9593-9df666662644" />
+
 The dashboard provides a weekly overview of the user’s wellbeing, including mood trends, burnout score, sleep hours, and stress analytics. Visual charts and insights help users understand behavioral patterns and monitor burnout risk over time.
 
 
-<img width="905" height="942" alt="image" src="https://github.com/user-attachments/assets/20ee3ee9-d197-48f2-aa52-402430af86c0" />
+<img width="905" height="942" alt="image" src="https://github.com/user-attachments/assets/20ee3ee9-d197-48f2-aa52-402430af86c0" /> 
+
 The analysis page generates a detailed wellbeing report based on the latest questionnaire responses. It displays burnout percentage, overall health score, and category-wise insights such as sleep quality, motivation, productivity, stress, and social interaction, along with personalized recommendations.
 
 
