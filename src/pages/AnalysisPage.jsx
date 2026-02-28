@@ -23,6 +23,7 @@ export default function AnalysisPage({ quizAnswers }) {
   const items = getAnalysis(answers);
   const overallHealth = computeOverallHealth(answers); // 0-100 where higher is healthier
   const burnoutPercent = computeBurnoutPercent(answers); // 0-100 where higher is worse
+  const moodEntry = MOODS[answers.mood];
 
   return (
     <div style={{
