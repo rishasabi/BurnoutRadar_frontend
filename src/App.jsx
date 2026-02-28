@@ -13,6 +13,8 @@ import globalStyle, { appendedResponsive } from './styles/globalStyles';
 export default function App() {
   const [quizAnswers, setQuizAnswers] = useState(null);
 
+  
+
   return (
     <BrowserRouter>
   <style>{globalStyle + appendedResponsive}</style>
