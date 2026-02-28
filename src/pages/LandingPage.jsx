@@ -71,8 +71,8 @@ const facts = [
           </p>
 
           <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap', animation: 'floatUp 0.8s ease 0.6s both' }}>
-            <Btn onClick={() => navigate('/dashboard')} style={{ padding: '14px 36px', fontSize: 16 }}>🚀 Try Dashboard</Btn>
-            <Btn onClick={() => navigate('/questionnaire')} variant="outline" style={{ padding: '14px 36px', fontSize: 16 }}>📝 Take Quiz</Btn>
+            <Btn onClick={() => navigate('/dashboard')} style={{ padding: '14px 36px', fontSize: 16 }}>Try Dashboard</Btn>
+            <Btn onClick={() => navigate('/questionnaire')} variant="outline" style={{ padding: '14px 36px', fontSize: 16 }}>Take Quiz!!</Btn>
           </div>
         </div>
 
@@ -118,9 +118,9 @@ const facts = [
       </section>
 
       <section style={{ padding: '80px 40px', textAlign: 'center', background: 'rgba(255,255,255,0.6)' }}>
-        <h2 style={{ fontFamily: "'Comfortaa', cursive", fontSize: 40, fontWeight: 700, color: '#4a3560', marginBottom: 16 }}>Ready to Take Control? 🌟</h2>
+        <h2 style={{ fontFamily: "'Comfortaa', cursive", fontSize: 40, fontWeight: 700, color: '#4a3560', marginBottom: 16 }}>Ready to Take Control?</h2>
         <p style={{ color: '#7a6a8a', fontSize: 17, marginBottom: 36 }}>Start tracking today. It only takes 2 minutes.</p>
-        <Btn onClick={() => navigate('/login')} style={{ padding: '16px 48px', fontSize: 17 }}>Get Started — It's Free ✨</Btn>
+        <Btn onClick={() => navigate('/login')} style={{ padding: '16px 48px', fontSize: 17 }}>Get Started</Btn>
       </section>
 
       <footer style={{ padding: '28px 40px', textAlign: 'center', background: 'rgba(207,186,240,0.15)', color: '#9a8aaa', fontSize: 13, borderTop: `1px solid ${C.lavenderBlue}44` }}>
